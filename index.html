@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio - Jane Doe</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero" id="accueil">
+    <nav class="navbar">
+      <div class="logo">Jane Doe</div>
+      <ul class="nav-links">
+        <li><a href="#accueil">Accueil</a></li>
+        <li><a href="#projets">Projets</a></li>
+        <li><a href="#competences">Compétences</a></li>
+        <li><a href="#parcours">Parcours</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="hero-content">
+      <span class="tag">Designer & Développeuse Front-End</span>
+      <h1>Bonjour, je suis <strong>Jane Doe</strong>.</h1>
+      <p>
+        Passionnée par la création d'expériences numériques élégantes et accessibles,
+        je conçois des interfaces harmonieuses alliant design et performance.
+      </p>
+      <div class="cta-group">
+        <a class="btn primary" href="#projets">Voir mes projets</a>
+        <a class="btn secondary" href="Jane-Doe-CV.pdf" download>Télécharger mon CV</a>
+      </div>
+    </div>
+    <div class="hero-illustration" aria-hidden="true">
+      <div class="circle"></div>
+      <div class="dots"></div>
+    </div>
+  </header>
+
+  <main>
+    <section class="section" id="projets">
+      <div class="section-header">
+        <span class="section-tag">Réalisations</span>
+        <h2>Projets sélectionnés</h2>
+        <p>Une sélection de projets récents qui illustrent ma polyvalence.</p>
+      </div>
+      <div class="grid projects-grid">
+        <article class="card project">
+          <div class="card-body">
+            <span class="badge">UX · UI · Dev</span>
+            <h3>Plateforme de cours en ligne</h3>
+            <p>
+              Conception complète de l'identité visuelle et développement du front-end
+              pour une plateforme éducative accueillant plus de 5 000 utilisateurs.
+            </p>
+          </div>
+          <div class="card-footer">
+            <a href="#" class="link">Étude de cas</a>
+            <span class="year">2023</span>
+          </div>
+        </article>
+        <article class="card project">
+          <div class="card-body">
+            <span class="badge">UI · Branding</span>
+            <h3>Refonte d'une application mobile</h3>
+            <p>
+              Optimisation du parcours utilisateur et création d'un design system
+              modulable pour une startup fintech.
+            </p>
+          </div>
+          <div class="card-footer">
+            <a href="#" class="link">Prototype interactif</a>
+            <span class="year">2022</span>
+          </div>
+        </article>
+        <article class="card project">
+          <div class="card-body">
+            <span class="badge">Dev Front-end</span>
+            <h3>Site événementiel</h3>
+            <p>
+              Développement d'un site responsive avec animations légères et
+              intégration d'un système de billetterie.
+            </p>
+          </div>
+          <div class="card-footer">
+            <a href="#" class="link">Visiter le site</a>
+            <span class="year">2021</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section alt" id="competences">
+      <div class="section-header">
+        <span class="section-tag">Expertise</span>
+        <h2>Compétences clés</h2>
+        <p>Des savoir-faire complémentaires pour des projets aboutis.</p>
+      </div>
+      <div class="grid skills-grid">
+        <div class="skill">
+          <h3>Design UI/UX</h3>
+          <p>Wireframes, prototypes haute-fidélité, tests utilisateurs.</p>
+        </div>
+        <div class="skill">
+          <h3>Développement Front-End</h3>
+          <p>HTML5, CSS3, JavaScript moderne, frameworks front.</p>
+        </div>
+        <div class="skill">
+          <h3>Branding & Identité</h3>
+          <p>Charte graphique, palettes de couleurs, typographie.</p>
+        </div>
+        <div class="skill">
+          <h3>Gestion de projet</h3>
+          <p>Méthodes agiles, coordination d'équipe, documentation.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="parcours">
+      <div class="section-header">
+        <span class="section-tag">Parcours</span>
+        <h2>Expériences professionnelles</h2>
+      </div>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-year">2022 - Aujourd'hui</span>
+            <h3>Lead Designer @ Studio Nova</h3>
+            <p>Direction artistique et mise en place de la stratégie produit.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-year">2020 - 2022</span>
+            <h3>UI/UX Designer @ PixelCraft</h3>
+            <p>Conception de parcours utilisateurs et design system.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-year">2018 - 2020</span>
+            <h3>Développeuse Front-End @ WebWave</h3>
+            <p>Intégration responsive et optimisation des performances.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="section-header">
+        <span class="section-tag">Contact</span>
+        <h2>Discutons de votre prochain projet</h2>
+        <p>Envie de collaborer ou simplement d'échanger ? N'hésitez pas à me contacter.</p>
+      </div>
+      <form class="contact-form" action="https://formspree.io/f/your-id" method="POST">
+        <div class="form-row">
+          <label for="name">Nom</label>
+          <input type="text" id="name" name="name" placeholder="Votre nom" required>
+        </div>
+        <div class="form-row">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="Votre email" required>
+        </div>
+        <div class="form-row full">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" placeholder="Comment puis-je vous aider ?" required></textarea>
+        </div>
+        <button type="submit" class="btn primary">Envoyer</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; <span id="year"></span> Jane Doe. Tous droits réservés.</p>
+    <div class="social-links">
+      <a href="https://www.linkedin.com" aria-label="LinkedIn">LinkedIn</a>
+      <a href="https://www.behance.net" aria-label="Behance">Behance</a>
+      <a href="mailto:jane.doe@email.com" aria-label="Email">Email</a>
+    </div>
+  </footer>
+
+  <script>
+    const yearSpan = document.getElementById('year');
+    yearSpan.textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
