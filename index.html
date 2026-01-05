@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Portfolio - Jane Doe</title>
+  <title>Portfolio Alternance Réseaux & Télécoms - Noah Joli</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
@@ -12,25 +12,38 @@
 <body>
   <header class="hero" id="accueil">
     <nav class="navbar">
-      <div class="logo">Jane Doe</div>
+      <div class="logo">Noah Joli</div>
       <ul class="nav-links">
         <li><a href="#accueil">Accueil</a></li>
-        <li><a href="#projets">Projets</a></li>
-        <li><a href="#competences">Compétences</a></li>
-        <li><a href="#parcours">Parcours</a></li>
+        <li><a href="#entreprise">Entreprise</a></li>
+        <li><a href="#missions">Missions</a></li>
+        <li><a href="#bilans">Bilans</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
     <div class="hero-content">
-      <span class="tag">Designer & Développeuse Front-End</span>
-      <h1>Bonjour, je suis <strong>Jane Doe</strong>.</h1>
+      <span class="tag">Alternant Réseaux & Télécoms</span>
+      <h1>Bonjour, je suis <strong>Noah Joli</strong></h1>
       <p>
-        Passionnée par la création d'expériences numériques élégantes et accessibles,
-        je conçois des interfaces harmonieuses alliant design et performance.
+        Étudiant en BUT Réseaux & Télécommunications à l'IUT d'Ifs (Normandie). J'effectue
+        mon alternance comme apprenti technicien réseau dans le service numérique qui gère
+        les collèges du département : configuration de switches, bornes WiFi et support sur
+        site pour maintenir les salles de cours connectées.
       </p>
+      <div class="hero-highlights">
+        <div>
+          <p class="eyebrow">Spécialités</p>
+          <p class="highlight">LAN & VLAN · WiFi de site · Support de proximité</p>
+        </div>
+        <div class="avatar" aria-hidden="true"></div>
+        <div>
+          <p class="eyebrow">Objectif du site</p>
+          <p class="highlight">Présenter mon alternance, mes missions terrain et mon évolution.</p>
+        </div>
+      </div>
       <div class="cta-group">
-        <a class="btn primary" href="#projets">Voir mes projets</a>
-        <a class="btn secondary" href="Jane-Doe-CV.pdf" download>Télécharger mon CV</a>
+        <a class="btn primary" href="#missions">Découvrir mes missions</a>
+        <a class="btn secondary" href="#bilans">Consulter les bilans</a>
       </div>
     </div>
     <div class="hero-illustration" aria-hidden="true">
@@ -40,122 +53,241 @@
   </header>
 
   <main>
-    <section class="section" id="projets">
+    <section class="section" id="entreprise">
       <div class="section-header">
-        <span class="section-tag">Réalisations</span>
-        <h2>Projets sélectionnés</h2>
-        <p>Une sélection de projets récents qui illustrent ma polyvalence.</p>
+        <span class="section-tag">Contexte</span>
+        <h2>Entreprise d'accueil & projection professionnelle</h2>
+        <p>
+          J'évolue au sein du service numérique qui supervise les réseaux des collèges
+          publics du département. L'équipe, composée de techniciens et de prestataires,
+          assure la disponibilité des salles pédagogiques et l'évolution du WiFi.
+        </p>
       </div>
-      <div class="grid projects-grid">
-        <article class="card project">
-          <div class="card-body">
-            <span class="badge">UX · UI · Dev</span>
-            <h3>Plateforme de cours en ligne</h3>
-            <p>
-              Conception complète de l'identité visuelle et développement du front-end
-              pour une plateforme éducative accueillant plus de 5 000 utilisateurs.
-            </p>
-          </div>
-          <div class="card-footer">
-            <a href="#" class="link">Étude de cas</a>
-            <span class="year">2023</span>
+      <div class="grid company-grid">
+        <article class="card info">
+          <h3>Mon rôle</h3>
+          <p>Apprenti technicien réseau (BUT R&amp;T) intégré au pôle Exploitation.</p>
+          <ul>
+            <li>Préparer et mettre à jour les configurations de switches d'accès.</li>
+            <li>Installer et paramétrer des bornes WiFi dans les établissements.</li>
+            <li>Assurer le support de proximité sur les PC et incidents réseau.</li>
+          </ul>
+        </article>
+        <article class="card info">
+          <h3>Missions principales</h3>
+          <p>Garantir un réseau fiable pour les collèges et documenter chaque action.</p>
+          <ul>
+            <li>Standardiser les VLAN et l'alimentation PoE pour les salles.</li>
+            <li>Déployer et tester les bornes WiFi et les cartes réseau des PC.</li>
+            <li>Participer aux chantiers de rénovation d'infrastructure avec les prestataires.</li>
+          </ul>
+        </article>
+        <article class="card info">
+          <h3>Évolution observée</h3>
+          <p>Montée en autonomie progressive pendant l'année.</p>
+          <ul>
+            <li>Début sur des configurations guidées, puis interventions en binôme.</li>
+            <li>Gestion autonome de petites mises à jour et de tests de connexion.</li>
+            <li>Projection professionnelle : technicien réseau terrain spécialisé LAN/WiFi.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="section alt" id="missions">
+      <div class="section-header">
+        <span class="section-tag">Missions</span>
+        <h2>Réalisations phares de l'alternance</h2>
+        <p>Chaque mission est structurée pour mettre en avant le contexte, les tâches, les preuves et mon analyse réflexive.</p>
+      </div>
+      <div class="missions-grid">
+        <article class="mission-card">
+          <header>
+            <div>
+              <p class="eyebrow">Oct. 2024 - Jan. 2025</p>
+              <h3>M01 · Configuration et mises à jour de switches</h3>
+            </div>
+            <span class="badge">VLAN · PoE · Sauvegarde conf</span>
+          </header>
+          <div class="mission-body">
+            <div>
+              <h4>Contexte & objectifs</h4>
+              <p>Mettre à niveau les switches d'accès des collèges pour fiabiliser le LAN et alimenter les nouvelles bornes WiFi.</p>
+              <ul>
+                <li>Enjeux : VLAN clairs, ports PoE stables, sauvegardes après intervention.</li>
+                <li>Acteurs : service numérique départemental, référents numériques des collèges.</li>
+              </ul>
+            </div>
+            <div>
+              <h4>Tâches réalisées & évolution</h4>
+              <ul>
+                <li>Préparation de modèles VLAN (salles de classe, administration, WiFi invités).</li>
+                <li>Configuration des ports en mode access/trunk, activation PoE et vérification des liaisons montantes.</li>
+                <li>Sauvegarde et archivage des configurations avant/après pour traçabilité.</li>
+              </ul>
+              <p class="muted">Autonomie : démarrage en binôme, puis capacité à appliquer un plan de ports seul sur site.</p>
+            </div>
+            <div>
+              <h4>Compétences & apprentissages</h4>
+              <p>Administration LAN, gestion du câblage dans les baies, validation des VLAN utilisateurs/WiFi.</p>
+              <p class="muted">Apprentissages critiques : vérifier systématiquement la cohérence entre plan d'adressage et câblage réel.</p>
+            </div>
+            <div>
+              <h4>Traces & preuves</h4>
+              <ul>
+                <li>Exports de configuration annotés et fiches de ports mises à jour.</li>
+                <li>Photos des baies avant/après réorganisation.</li>
+                <li>Compte-rendus signés par le référent de collège après tests.</li>
+              </ul>
+            </div>
+            <div>
+              <h4>Analyse réflexive & autoévaluation</h4>
+              <p>La mission m'a appris à préparer le matériel en atelier avant déplacement et à documenter chaque port. Niveau <strong>maîtrise solide</strong> sur la configuration de base des switches d'accès.</p>
+            </div>
           </div>
         </article>
-        <article class="card project">
-          <div class="card-body">
-            <span class="badge">UI · Branding</span>
-            <h3>Refonte d'une application mobile</h3>
-            <p>
-              Optimisation du parcours utilisateur et création d'un design system
-              modulable pour une startup fintech.
-            </p>
-          </div>
-          <div class="card-footer">
-            <a href="#" class="link">Prototype interactif</a>
-            <span class="year">2022</span>
+
+        <article class="mission-card">
+          <header>
+            <div>
+              <p class="eyebrow">Fév. - Avril 2025</p>
+              <h3>M02 · Dépannage WiFi et cartes réseau PC</h3>
+            </div>
+            <span class="badge">Support · Drivers · Tests</span>
+          </header>
+          <div class="mission-body">
+            <div>
+              <h4>Contexte & objectifs</h4>
+              <p>Résoudre les coupures WiFi et les problèmes de cartes réseau sur les postes des enseignants.</p>
+              <ul>
+                <li>Enjeux : garantir l'accès aux applications pédagogiques, limiter les retours récurrents.</li>
+                <li>Acteurs : enseignants, tuteur, prestataire matériel pour les pièces.</li>
+              </ul>
+            </div>
+            <div>
+              <h4>Tâches réalisées & évolution</h4>
+              <ul>
+                <li>Diagnostic des cartes WiFi (drivers, état matériel) et remplacement si nécessaire.</li>
+                <li>Mises à jour pilotes/firmware, paramétrage des SSID et suppression des anciens profils.</li>
+                <li>Tests de débit/latence après intervention (wifi analyzer, iperf simple) et restitution à l'utilisateur.</li>
+              </ul>
+              <p class="muted">Autonomie : capable de traiter seul un ticket WiFi de bout en bout, avec validation par le tuteur.</p>
+            </div>
+            <div>
+              <h4>Compétences & apprentissages</h4>
+              <p>Support utilisateur, méthode de diagnostic WiFi, suivi des versions drivers/OS.</p>
+              <p class="muted">Apprentissages critiques : bien noter les étapes et les paramètres pour répéter la correction sur d'autres postes.</p>
+            </div>
+            <div>
+              <h4>Traces & preuves</h4>
+              <ul>
+                <li>Fiches de tests (avant/après) avec captures de signal et débits.</li>
+                <li>Numéros de série des cartes remplacées et rapports d'intervention.</li>
+                <li>Retours utilisateurs validant la connexion en salle de cours.</li>
+              </ul>
+            </div>
+            <div>
+              <h4>Analyse réflexive & autoévaluation</h4>
+              <p>J'ai amélioré ma capacité à expliquer simplement les manipulations aux enseignants. Niveau <strong>maîtrise intermédiaire</strong> sur le dépannage WiFi poste client.</p>
+            </div>
           </div>
         </article>
-        <article class="card project">
-          <div class="card-body">
-            <span class="badge">Dev Front-end</span>
-            <h3>Site événementiel</h3>
-            <p>
-              Développement d'un site responsive avec animations légères et
-              intégration d'un système de billetterie.
-            </p>
-          </div>
-          <div class="card-footer">
-            <a href="#" class="link">Visiter le site</a>
-            <span class="year">2021</span>
+
+        <article class="mission-card">
+          <header>
+            <div>
+              <p class="eyebrow">Mai - Juil. 2025</p>
+              <h3>M03 · Rénovation réseau d'un collège avec prestataire</h3>
+            </div>
+            <span class="badge">Chantier · Recette · Relation prestataire</span>
+          </header>
+          <div class="mission-body">
+            <div>
+              <h4>Contexte & objectifs</h4>
+              <p>Rénover une partie du réseau d'un collège en coordination avec un prestataire câblage pour stabiliser le WiFi et les salles info.</p>
+              <ul>
+                <li>Enjeux : limiter les coupures, remplacer le matériel vieillissant et sécuriser les baies.</li>
+                <li>Acteurs : prestataire câblage, DSI départementale, équipe pédagogique.</li>
+              </ul>
+            </div>
+            <div>
+              <h4>Tâches réalisées & évolution</h4>
+              <ul>
+                <li>Relevé de l'existant (baie, brassage, numérotation des prises) et préparation des plans de ports.</li>
+                <li>Installation d'un nouveau switch d'accès, recâblage des salles et ajout de bornes WiFi avec le prestataire.</li>
+                <li>Recette : tests de continuité, vérification des VLAN et validation de la couverture WiFi avec le référent.</li>
+              </ul>
+              <p class="muted">Autonomie : participation active aux chantiers, capable de mener les tests et de signaler les écarts.</p>
+            </div>
+            <div>
+              <h4>Compétences & apprentissages</h4>
+              <p>Travail en binôme avec un prestataire, contrôle de conformité des baies, validation de service après travaux.</p>
+              <p class="muted">Apprentissages critiques : importance du plan de recette et du suivi post-intervention.</p>
+            </div>
+            <div>
+              <h4>Traces & preuves</h4>
+              <ul>
+                <li>Plans de ports mis à jour et photos des baies réorganisées.</li>
+                <li>Fiches de recette (tests de prise, ping, SSID) signées par le référent.</li>
+                <li>Journal des anomalies remontées au prestataire et actions correctives.</li>
+              </ul>
+            </div>
+            <div>
+              <h4>Analyse réflexive & autoévaluation</h4>
+              <p>Cette mission m'a montré l'importance de la coordination avec les prestataires et du suivi après chantier. Niveau <strong>autonome</strong> sur la préparation et la recette d'une petite rénovation LAN/WiFi.</p>
+            </div>
           </div>
         </article>
       </div>
     </section>
 
-    <section class="section alt" id="competences">
+    <section class="section" id="bilans">
       <div class="section-header">
-        <span class="section-tag">Expertise</span>
-        <h2>Compétences clés</h2>
-        <p>Des savoir-faire complémentaires pour des projets aboutis.</p>
+        <span class="section-tag">Bilans</span>
+        <h2>Bilan par compétence</h2>
+        <p>Analyse croisée des compétences du référentiel Réseaux & Télécommunications, développées à l'IUT et en entreprise.</p>
       </div>
       <div class="grid skills-grid">
-        <div class="skill">
-          <h3>Design UI/UX</h3>
-          <p>Wireframes, prototypes haute-fidélité, tests utilisateurs.</p>
-        </div>
-        <div class="skill">
-          <h3>Développement Front-End</h3>
-          <p>HTML5, CSS3, JavaScript moderne, frameworks front.</p>
-        </div>
-        <div class="skill">
-          <h3>Branding & Identité</h3>
-          <p>Charte graphique, palettes de couleurs, typographie.</p>
-        </div>
-        <div class="skill">
-          <h3>Gestion de projet</h3>
-          <p>Méthodes agiles, coordination d'équipe, documentation.</p>
-        </div>
-      </div>
-    </section>
-
-    <section class="section" id="parcours">
-      <div class="section-header">
-        <span class="section-tag">Parcours</span>
-        <h2>Expériences professionnelles</h2>
-      </div>
-      <div class="timeline">
-        <div class="timeline-item">
-          <div class="timeline-dot"></div>
-          <div class="timeline-content">
-            <span class="timeline-year">2022 - Aujourd'hui</span>
-            <h3>Lead Designer @ Studio Nova</h3>
-            <p>Direction artistique et mise en place de la stratégie produit.</p>
-          </div>
-        </div>
-        <div class="timeline-item">
-          <div class="timeline-dot"></div>
-          <div class="timeline-content">
-            <span class="timeline-year">2020 - 2022</span>
-            <h3>UI/UX Designer @ PixelCraft</h3>
-            <p>Conception de parcours utilisateurs et design system.</p>
-          </div>
-        </div>
-        <div class="timeline-item">
-          <div class="timeline-dot"></div>
-          <div class="timeline-content">
-            <span class="timeline-year">2018 - 2020</span>
-            <h3>Développeuse Front-End @ WebWave</h3>
-            <p>Intégration responsive et optimisation des performances.</p>
-          </div>
-        </div>
+        <article class="skill">
+          <h3>Administration réseaux</h3>
+          <p>Configuration LAN, segmentation VLAN, gestion PoE et remise en ordre des baies.</p>
+          <ul>
+            <li>IUT : travaux pratiques sur le routage et la segmentation.</li>
+            <li>Entreprise : préparation de plans de ports, configuration de switches et recâblage sur site (M01, M03).</li>
+          </ul>
+        </article>
+        <article class="skill">
+          <h3>Sécurité & résilience</h3>
+          <p>Séparation des flux, sécurisation des ports, suivi des incidents récurrents.</p>
+          <ul>
+            <li>IUT : projets sécurité (ACL, IDS, PKI).</li>
+            <li>Entreprise : ports dédiés/SSID séparés et contrôles de cohérence après intervention (M01, M02).</li>
+          </ul>
+        </article>
+        <article class="skill">
+          <h3>Supervision & automatisation</h3>
+          <p>Vérification de configuration, suivi de couverture WiFi, reporting d'incidents.</p>
+          <ul>
+            <li>IUT : monitoring basique et scripts Python.</li>
+            <li>Entreprise : tests de débit/latence, fiches de recette et suivi des anomalies (M02, M03).</li>
+          </ul>
+        </article>
+        <article class="skill">
+          <h3>Gestion de projet & communication</h3>
+          <p>Planification, documentation, transfert de compétences.</p>
+          <ul>
+            <li>IUT : méthodes agiles, rapports techniques.</li>
+            <li>Entreprise : comptes-rendus d'intervention, retours utilisateurs et coordination avec le prestataire.</li>
+          </ul>
+        </article>
       </div>
     </section>
 
     <section class="section contact" id="contact">
       <div class="section-header">
         <span class="section-tag">Contact</span>
-        <h2>Discutons de votre prochain projet</h2>
-        <p>Envie de collaborer ou simplement d'échanger ? N'hésitez pas à me contacter.</p>
+        <h2>Échanger sur mon parcours</h2>
+        <p>Je suis disponible pour partager plus de détails ou préparer la suite de mon projet professionnel.</p>
       </div>
       <form class="contact-form" action="https://formspree.io/f/your-id" method="POST">
         <div class="form-row">
@@ -176,11 +308,10 @@
   </main>
 
   <footer class="footer">
-    <p>&copy; <span id="year"></span> Jane Doe. Tous droits réservés.</p>
+    <p>&copy; <span id="year"></span> Noah Joli. Portfolio alternance Réseaux & Télécoms.</p>
     <div class="social-links">
       <a href="https://www.linkedin.com" aria-label="LinkedIn">LinkedIn</a>
-      <a href="https://www.behance.net" aria-label="Behance">Behance</a>
-      <a href="mailto:jane.doe@email.com" aria-label="Email">Email</a>
+      <a href="mailto:noah.joli@email.com" aria-label="Email">Email</a>
     </div>
   </footer>
 
